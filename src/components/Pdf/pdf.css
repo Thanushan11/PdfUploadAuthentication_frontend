@@ -1,0 +1,120 @@
+.pdf {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+    
+  }
+  
+  .pdf-Con {
+    top:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pdf-name,
+  .pdf-pdf {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #edf5f3;
+    margin: 5px 0;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+  .pdf-button {
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    background-color: #3bb19b;
+    color: white;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 180px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 80%;
+  }
+  
+  .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #5aa094;
+    border-radius: 10px;
+    margin: 10px;
+    width: 20%;
+    height:80vh;
+
+  }
+  
+  .left {
+   
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    height:80vh;
+    width: 20%;
+   
+  }
+  
+  .left h4 {
+    font-size: 24px;
+    margin-top: 0;
+    color: rgb(0, 0, 0);
+  }
+  
+  .uploadedFile {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .uploadedFile .inner-div {
+    margin: 10px 0;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .uploadedFile .inner-div h6 {
+    margin: 0 0 10px;
+  }
+  
+  .uploadedFile .button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    background-color: #3bb19b;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+ 
+  
